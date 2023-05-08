@@ -12,7 +12,7 @@ font-family: 'Raleway', sans-serif;
 /* prevent side from being too wide */
 .container,
 .container-fluid {
-	max-width: 1600px;
+	max-width: 1440px;
 }
 
 body {
@@ -51,35 +51,40 @@ h1 {
 }
 
 /* ADDED  */
-.btn .btn-primary{
-		background-color: #C7A55B;
+.btn .btn-primary {
+	background-color: #C7A55B;
 }
 
 
-.locationimg{
-	width:32px;
-	height:32px;
+.locationimg {
+	width: 32px;
+	height: 32px;
 }
-select.form-select{
+
+select.form-select {
 	background-color: #E2C76B;
-	border:none;
+	border: none;
 }
+
 /*MODIFIED  */
 /* top nav, bottom nav */
 #header,
 footer {
 	/* background-color: #34475C;
 	color: #D9D9D9; */
-		background-color:white;
-		color: black;
+	background-color: white;
+	color: black;
 }
+
 /*MODIFIED  */
-#headertop{
+#headertop {
 	background-color: #E2C76B;
 	/* padding:0px 20px; */
 }
-#menulist{
-	font-size:1.2em;;
+
+#menulist {
+	font-size: 1.2em;
+	;
 }
 
 #menulist li a:not(:last-child)::after {
@@ -87,10 +92,15 @@ footer {
 	padding: 0.25em;
 	/* color:black; */
 }
+
+main.container-fluid {
+	padding: 0px;
+}
+
 #header a,
 footer a {
 	/* color: #d9d9d9; */
-			color: black;
+	color: black;
 }
 
 #header a.btn {
