@@ -41,16 +41,18 @@ button.bg-primary:focus, button.bg-primary:focus-visible {
 	border-color: #E88F00 !important;
 }
 
+/* modified */
 .btn-primary {
 	color: #ffffff;
-	background-color: #E88F00;
-	border-color: #E88F00;
+	background-color: #C7A55B;
+	border-color: #C7A55B;
 }
 
+/*modified */
 .btn-primary:hover {
 	color: #ffffff;
-	background-color: #c47800;
-	border-color: #b46f00;
+	background-color: #C7A55B;
+	border-color: #C7A55B;
 }
 
 .btn-primary:focus, .btn-primary.focus {
