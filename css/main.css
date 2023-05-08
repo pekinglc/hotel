@@ -87,10 +87,6 @@ footer {
 	padding: 0.25em;
 	/* color:black; */
 }
-main.container-fluid{
-	padding:0px;
-}
-
 #header a,
 footer a {
 	/* color: #d9d9d9; */
@@ -151,13 +147,9 @@ padding: 0;
 	max-height: 30px;
 }
 
-#ourstrength{
-font-size: 2em;
-}
 /* index */
 #adv-test section {
-	margin: 1em0 0;
-	
+	margin: 1em 0;
 }
 
 
@@ -242,3 +234,8 @@ h1{
 	line-height: 1.5em;
 	font-size: 2.75em;
 } */
+#ourstrength{
+
+	font-size: 1.5em;
+	
+	}
