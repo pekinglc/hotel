@@ -92,9 +92,14 @@ footer {
 	padding: 0.25em;
 	/* color:black; */
 }
+<<<<<<< HEAD
 
 main.container-fluid {
 	padding: 0px;
+=======
+main.container-fluid{
+	padding:0px;
+>>>>>>> 55e8d4670c48d36386319bc531c302a797b44296
 }
 
 #header a,
@@ -157,9 +162,13 @@ padding: 0;
 	max-height: 30px;
 }
 
+#ourstrength{
+font-size: 2em;
+}
 /* index */
 #adv-test section {
-	margin: 1em 0;
+	margin: 1em0 0;
+	
 }
 
 
