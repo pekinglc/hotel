@@ -19,25 +19,25 @@
 <body class="homepage">
     <!-- header -->
     <nav id="headertop" class="navbar navbar-expand-md py-0">
-        <div class="container d-flex align-items-center">
-            <a><img class="locationimg" src="images/location.png" alt="Abbott Hotel logo">88 LUX
+        <div class="container d-flex align-items-center justify-content-between">
+            <a style="font-size: 14px;"><img class="locationimg" src="images/location.png" alt="Abbott Hotel logo">88 LUX
                 ST.,MONTRELA,QC</a>
             <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMainHeadertop"
                 aria-controls="navbarMainHeader" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button> -->
             <div class="navbar-nav ms-auto">
-                <select class="form-select" aria-label="Default select example">
+                <select class="form-select" aria-label="Default select example" style="font-size: 14px;">
                   <option selected>English</option>
                   <option value="1">French</option>
                   <option value="2">Chinese</option>
                   <option value="3">Spanish</option>
                 </select>
-                <select class="form-select" aria-label="Default select example">
+                <select class="form-select" aria-label="Default select example" style="font-size: 14px;">
                   <option selected>CAD</option>
-                  <option value="1">One</option>
-                  <option value="2">Two</option>
-                  <option value="3">Three</option>
+                  <option value="1">US</option>
+                  <option value="2">EURO</option>
+                  <option value="3">CNY</option>
                 </select>
               </div>
             </div>
@@ -48,7 +48,7 @@
     <nav id="header" class="navbar navbar-expand-md">
 
         <div class="container">
-            <a class="navbar-brand" href="index.html"><img src="images/logohotel.png" alt="Programsium logo"></a>
+            <a class="navbar-brand" href="index.html"><img src="images/logohotel.png" alt="Abbot Hotel logo"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMainHeader"
                 aria-controls="navbarMainHeader" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -59,7 +59,7 @@
                         <a class="nav-link active" aria-current="page" href="pricing.html">About us</a>
                     </li>
                     <li class="nav-item mx-0.5">
-                        <a class="nav-link" href="testiminials.html">Dining</a>
+                        <a class="nav-link" href="dining.html">Dining</a>
                     </li>
                     <li class="nav-item mx-0.5">
                         <a class="nav-link" href="#">Spa</a>
@@ -71,7 +71,46 @@
                         <a class="nav-link" href="#">Events</a>
                     </li>
                     <li class="nav-item mx-0.5">
-                        <a class="btn btn-primary btn-lg mt-1 mx-1" href="#">BOOK NOW</a>
+                        <div class="btn-group dropstart">
+                            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
+                              Book Now
+                            </button>
+                            <form class="dropdown-menu p-4">
+                              <div class="mb-3">
+                                <label for="checkin" class="form-label">Arrival</label>
+                                <input type="date" class="form-control" id="checkin">
+                              </div>
+                              <div class="mb-3">
+                                <label for="checkout" class="form-label">Departure</label>
+                                <input type="date" class="form-control" id="checkout">
+                              </div>
+                              <div class="mb-3">
+                                <label for="num-guests" class="form-label">Adults</label>
+                                <select id="num-guests" name="num-guests">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                </select> 
+                            </div>
+                                <div class="mb-3">
+                                    <label for="roomtype" class="form-label">Room Type</label>
+                                    <select id="roomtype" name="roomtype" required>
+                                        <option value="">--Select Room Type--</option>
+                                        <option value="courtyyard">Super Courtyard King</option>
+                                        <option value="seventy-seven">Seventy Seven King</option>
+                                        <option value="more">More Options</option>
+                                    </select>
+                                </div>
+                              <button type="submit" class="btn btn-primary">Confirm</button>
+                            </form>
+                          </div>
                     </li>
                     <li>
                         <a href="index.html"><img class="locationimg" src="images/search.png"
@@ -104,7 +143,7 @@
                 </div>
     
                 <!-- footer nav -->
-                <div class="col-9 col-md-6 order-md-4 d-flex justify-content-end align-items-center">
+                <div id="container1" class="col-9 col-md-6 order-md-4 d-flex justify-content-end align-items-center">
                     <a href="#" title="Abbott Hotel Reviews" class="mx-2 text-decoration-none">Reviews</a>
                     <span class="mx-2">|</span>
                     <a href="#" title="Frequently Asked Questions" class="mx-2 text-decoration-none">FAQ</a>
