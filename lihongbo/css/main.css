@@ -239,3 +239,22 @@ h1{
 	font-size: 1.5em;
 	
 	}
+
+/*for dinning page*/
+.discover{
+	font-family: 'Qwigley', sans-serif;
+	font-size: 40px;
+}
+.DinningTitle {
+	font-family: 'Roboto', sans-serif;
+	font-size: 28px;
+	font-weight: bold;
+	line-height: 1.5;
+  }
+  
+  .DinningText {
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	line-height: 1.5;
+  }
+	  
