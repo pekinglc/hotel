@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Qwigley&family=Roboto:wght@300;400;700&display=swap');
 
 /*
@@ -200,3 +201,80 @@ select.form-select{
 	background-color: #E2C76B;
 	border:none;
 }
+/* sunqianfeng*/
+.container, .container-fluid{
+	max-width: 1600px;
+}
+
+
+/* headings */
+h1, h2, h3, h4, h5, h6
+.h1, .h2, .h3, .h4, .h5, .h6 {
+	color: #000;
+	font-family: inter, monospace;
+}
+
+h1 {
+	letter-spacing: 3px;
+}
+
+.btn {
+	font-weight: 700;
+	/* bold */
+}
+.boldp{
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+
+
+
+
+.description{
+    font-family: inter;
+  }
+ 
+  .colored-cell{
+    background-color: #dabe66;
+  }
+  
+  .btn.btn-primary{
+    background-color: #dabe66;
+    border-color: #dabe66;
+  }
+  #roomtab, #room-tab{
+    font-family: qwigley;
+    font-size: 3em;
+    font-weight: bolder;
+    text-align: left;
+    margin-top: 10px;
+  }
+  
+
+
+.pricetitle{
+    font-weight: bold;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+.moroptions{
+    text-align: center;
+}
+.centered-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:5px ; 
+    margin-bottom: 15px;
+  }
+  
+  .centered-text p {
+    text-align: center;
+  }
