@@ -241,6 +241,10 @@ h1{
 	}
 
 /*for dinning page*/
+.discover{
+	font-family: 'Qwigley', sans-serif;
+	font-size: 40px;
+}
 .DinningTitle {
 	font-family: 'Roboto', sans-serif;
 	font-size: 28px;
