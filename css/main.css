@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&family=Raleway:wght@200;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
 
 
 /* 
@@ -55,7 +57,6 @@ h1 {
 	background-color: #C7A55B;
 }
 
-
 .locationimg {
 	width: 32px;
 	height: 32px;
@@ -68,18 +69,14 @@ select.form-select {
 
 /*MODIFIED  */
 /* top nav, bottom nav */
-#header,
+/* #header,
 footer {
-	/* background-color: #34475C;
-	color: #D9D9D9; */
 	background-color: white;
 	color: black;
-}
+} */
 
-/*MODIFIED  */
 #headertop {
 	background-color: #E2C76B;
-	/* padding:0px 20px; */
 }
 
 #menulist {
@@ -90,7 +87,6 @@ footer {
 #menulist li a:not(:last-child)::after {
 	content: "|";
 	padding: 0.25em;
-	/* color:black; */
 }
 
 /* added */
@@ -100,7 +96,6 @@ select.languageselect{
 
 #header a,
 footer a {
-	/* color: #d9d9d9; */
 	color: black;
 }
 
@@ -108,14 +103,10 @@ footer a {
 	color: #34475c;
 }
 
-/* #header {
-	margin-bottom: 1em;
-} */
-
-footer h3 {
+/* footer h3 {
 	font-size: 1.3em;
 	color: #D9D9D9;
-}
+} */
 
 #footer {
 	padding-top: 1em;
@@ -126,17 +117,6 @@ footer h3 {
 #footer nav a {
 	text-decoration: none;
 }
-
-/*
-#footer nav a::after{
-content: "|";
-padding: 0 .25em;
-}
-#footer nav a:last-child::after{
-content: "";
-padding: 0;
-}
-*/
 
 #footer nav a:not(:last-child)::after {
 	content: "|";
@@ -162,8 +142,6 @@ padding: 0;
 #adv-test section {
 	margin: 1em 0;
 }
-
-
 
 /* testimonials */
 .slick-testimonials .card-body {
@@ -240,13 +218,12 @@ padding: 0;
 	}
 }
 
-/* 
-h1{
-	line-height: 1.5em;
-	font-size: 2.75em;
-} */
+/* addded */
 #ourstrength {
 
 	font-size: 1.5em;
 
+}
+#header,#headertop,#footer{
+	font-family: 'Inter', sans-serif;
 }
